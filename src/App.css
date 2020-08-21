@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+h3 {
+  color: coral;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 3px;
+  background: coral;
+  min-height: 100px;
+}
+
+.nav-link {
+  color: coral;
+}
+
+.active {
+  color: coral;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

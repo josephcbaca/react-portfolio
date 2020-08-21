@@ -1,20 +1,19 @@
 import React, { useState } from "react";
 import NavTabs from "./NavTabs";
-import Home from "./pages/Home";
+import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 
-
 const Portfolio = () => {
-  const [currentPage, setCurrentPage] = useState("Home")
+  const [currentPage, setCurrentPage] = useState("About")
 
   let handlePageChange = setCurrentPage
 
   let renderPage = () => {
     switch (currentPage) {
-      case "Home":
-        return <Home />;
       case "About":
+        return <About />;
+      case "Projects":
         return <Projects />;
       case "Contact":
         return <Contact />;
