@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+.img-fluid {
+ max-width: 50%;
+ height: auto;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -18,7 +23,7 @@ h3 {
   right: 0;
   padding: 3px;
   background: coral;
-  min-height: 100px;
+  min-height: 50px;
 }
 
 .nav-link {
