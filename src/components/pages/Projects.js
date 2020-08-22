@@ -2,7 +2,6 @@ import React from "react";
 import ImageCard from "../ImageCard";
 import projects from "../db.js";
 
-
 const Projects = () => (
   <div>
     <br></br>

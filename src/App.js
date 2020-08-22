@@ -5,8 +5,8 @@ import "./App.css";
 
 const App = () => 
 <div>
-<PortfolioContainer />;
-<Footer />;
+<PortfolioContainer />
+<Footer />
 </div>
 
 export default App;
