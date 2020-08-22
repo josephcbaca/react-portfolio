@@ -1,7 +1,7 @@
 let projects = [
     {
         id: 1,
-        img: "../assets/projects/brewr.jpg",
+        img: "../assets/brewr.jpg",
         alt: "Screenshot of brewR project.",
         h5: "brewR",
         siteHref: "https://brewrs.herokuapp.com/",
